@@ -13,7 +13,7 @@
   "engineStrict": true,
   "scripts": {
     "start": "node src/index.js",
-    "test": "mocha --exit src/**/*.spec.js"
+    "test": "mocha src/*.spec.js src/**/*.spec.js"
   },
   "repository": {
     "type": "git",
@@ -38,7 +38,8 @@
     "eslint": "^6.8.0",
     "eslint-config-google": "^0.14.0",
     "husky": "^4.2.5",
-    "mocha": "^7.1.2"
+    "mocha": "^7.1.2",
+    "nyc": "^15.0.1"
   },
   "dependencies": {
     "commander": "^5.1.0"
