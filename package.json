@@ -1,0 +1,23 @@
+{
+  "name": "code-nl-assignment",
+  "version": "1.0.0",
+  "description": "Assignment for CODE.nl",
+  "contributors": [
+    "stolkchris@gmail.com"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stolkchris/code-nl-assignment.git"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/stolkchris/code-nl-assignment/issues"
+  },
+  "homepage": "https://github.com/stolkchris/code-nl-assignment#readme"
+}
