@@ -39,5 +39,8 @@
     "eslint-config-google": "^0.14.0",
     "husky": "^4.2.5",
     "mocha": "^7.1.2"
+  },
+  "dependencies": {
+    "commander": "^5.1.0"
   }
 }
