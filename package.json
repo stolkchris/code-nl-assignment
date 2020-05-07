@@ -24,11 +24,20 @@
   "bugs": {
     "url": "https://github.com/stolkchris/code-nl-assignment/issues"
   },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-push": "npm test"
+    }
+  },
   "homepage": "https://github.com/stolkchris/code-nl-assignment#readme",
   "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
     "chai": "^4.2.0",
     "eslint": "^6.8.0",
     "eslint-config-google": "^0.14.0",
+    "husky": "^4.2.5",
     "mocha": "^7.1.2"
   }
 }
